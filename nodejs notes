@@ -1,0 +1,33 @@
+
+
+JS that runs in node js will not essentially run in browser
+  because nodejs libraries are not supported in browser
+  
+  
+JS that runs in browser will not essentially  run in nodejs
+  becuase browser libraries are not supported in nodejs
+  
+  
+  Common library functions and objects supported both in nodejs and browser
+  
+      console
+	  setTimeout, setInterval, setImmediate
+	  Some objects like Math, Date, Regex...
+	  
+Limitations of running js in browser
+
+   We cannot access filesystem(read and write files in os)
+   we cannot access db servers (rbdms or no sql)
+   we cannot handle http request and provide responses( Http cannot be handled)
+   We cannot access os functionalities
+   We cannot access a mail server 
+   We cannot access network services and connect with them
+   
+   (all these are usally handled by a server side technology)
+   
+  But all the above things can be done using javascript in node js and
+  node js has inbuilt/ third party libraries to do this.
+  
+  
+  
+   

@@ -1,0 +1,108 @@
+
+
+React JS   ----  SPA  (Single page applications)
+
+---------------------------------------------------------------
+
+  Multi page applications (Development model -client side) (HTML,css and JS)
+  
+       Development environment
+	               webserver -- apache http, iis ,apache tomcat/weblogic/glassfish
+	               development language - HTML, CSS and Javascript
+				   commonly used HTML specification : html 4
+				   commonly used CSS specification :css2
+				   commonly use JS specification: ES5
+				   
+	   Production  environment
+	               
+				   webserver -- apache http, iis ,apache tomcat/weblogic/glassfish
+	               deployment language - HTML, CSS and Javascript(css and js are minified)
+				   commonly used HTML specification : html 4
+				   commonly used CSS specification :css2
+				   commonly use JS specification: ES5
+--------------------------------------------------------------------------------------- 
+
+Challenges in SPA--
+
+       one html perform too many functionalities which involves 1000's lines
+	   of js and css.
+	   
+	   1. javascript(es5) is a language with poor modularity and maintainablity
+	   2. javascript is strictly type(no datatypes)...so function calls 
+	   are prone to runtime errors
+	   3. If we need a third party funtionality we need to include the whole third 
+	   party library eventhough we dont use it completely
+	   
+	       <script src="jquery.min.js"></script>
+		   
+		                      //you might have used only 30-40 lines of jquery
+			
+        the amount unnecassary/un used code transferred to client will be too high
+
+----------------------------------------------------------------------------------
+
+    if we use es5 as development language for spa, the code cannot be maintained
+convincingly
+
+    if we dont find a proper way to avoid un used code, the amount of lines of
+code transferred to client will be too high
+
+  But browser supports only  javascript as the scripting language and still
+  we assume the most safest version to deploy so that all clients access ..ES5
+  
+  
+  
+  
+  -------------------------------------------------------------------------------
+  
+  
+     Development
+	 
+	      Development Server -- runs by using node js 
+		  Development Language -- HTML 5, css 3
+		             --typescript, coffeescript, es2015,es2016, jsx, tsx...
+					 (they provide better modularity and maintainability)
+	-------------------------------------------------------------------------------
+     Development activities by using dev platform(node js)
+	    
+		-transpile our code from higher to lower js version
+		-compile code from typescript to javascript
+		-unit test your code
+		-minify your convertes es5 files and css files
+		-lint your code(checking syntax and standards of the code..)
+		-bundle/build your code(
+		     the process of transpile/compile the files and from the 
+			 starting file/open file walk through all the files , combine
+			 only used code and ignore unused code into one or few js files.
+			 )
+
+       to do all these development tasks we need some utilites and task runners
+	  all these utilities are available as node packages and they are configured
+	  to set up the development environment
+	  
+      the process of setting up the development environment ,configuring all
+	  the tools, creating the project structure is called scaffolding the applications
+	  
+	  For Scaffolding your application, many spa framework come up with their own
+	  utilities  
+	    for example for react ,we have create-react-app
+		      for angular, we have angular-cli
+
+
+
+
+
+    -------------------------------------------------------------------------------	
+					 
+     production
+
+           Webserver for deployement
+           Deployment language -html5, css3 and es5		   
+		  
+
+	
+							  
+							  
+							  
+	   
+	   

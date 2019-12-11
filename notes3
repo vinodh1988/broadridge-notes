@@ -1,0 +1,14 @@
+
+
+
+Change in state of the parent will bring change in props of the children
+
+Change in state of child will(should) not impact parent at all, nstead it should
+impact props of its own children
+
+There is no way to change props within the component
+
+When a parent is re rendered child is rerendered but not recreated
+
+When a child rerenders parent will not rerender
+

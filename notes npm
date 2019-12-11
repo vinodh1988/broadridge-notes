@@ -1,0 +1,92 @@
+
+
+Node JS is asynchronous nature(Non blocking) 
+and it is a single threaded process and follows
+Event driven approach
+
+Node JS is a development  Ecosystem (Javascript is the language of development)
+
+     --Runtime(to run the js based application) (command -node)
+
+(command -npm)
+	 --Libraries ( Both inbuilt and third party libraries)
+	 --tools (compiler, transpiler, linting tools, testing tools, reporting and 
+	 documenting tools)
+	 
+	 Third party libraries and develoment tools can be downloaded
+	 and handled with the help of an inbuilt utility called npm(node package manager)
+	 
+Every node library, node application, node based command line tool  is called
+a node package
+
+   Every library and tool in node ecosystem is avaliable as node package(node module)
+   
+   Every node package has  a central configuration file called package.json which
+   contains details about the node package
+   
+   If you build a node based application/service , you might need libraries/ development
+   tools
+     
+	   -- Inbuilt libraries are not needed to be download( will be in installation itself)
+	   
+	   -- Third party libraries  ( need npm to download them from a central online
+	   repository)...( always libraries downloaded must be in local scope(project scope))
+	       
+		   Any library used for our application/service can be catogorized into
+		   development/production library dependency
+		   
+		   Production library -- needed both in development phase and in production
+               ex: react library
+			   
+		   Development library -- needed only for development but not production
+		   
+		       ex: Enzyme ( a unit test library used for react js)
+			   
+			   It is needed to be in production code
+			   
+			   
+			   
+		  ex: 
+		  to download production dependencies
+		  
+		  npm install --save express (from npm 5  onwards --save is not mandatory)
+	      
+		  to download development dependencies
+		  
+		  npm install --save-dev dependencies
+
+	  -- Development tool( test runner, compiler , transpiler, minifying tool..)
+	   ....(nee npm to download them from central repository)...(thery are meant 
+	   to be shared by multiple projects and hence they have to be in the global
+	   scope..)
+	   
+	        ex: npm  install -g <utility name>
+			
+			
+			
+	   
+	   
+	   
+	   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+	 
+	 
+	 

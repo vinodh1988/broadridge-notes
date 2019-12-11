@@ -1,0 +1,44 @@
+
+
+Node JS is development platform as well as ecosystem
+
+A Node application/service is called node package
+
+to manage(create,publish , download,build) node package we use a utility called npm
+
+Dependencies for project should be in local scope
+
+   dependencies ( production/development)
+   
+ Command line utilities should be in global scope
+ 
+ ----------------------------------------------------------------------------
+ 
+Using Node JS platform we can almost build any kind of application/service
+ 
+     --console, desktop, web application, web services...
+	 
+--------------------------------------------------------------------------
+
+Node JS is also  used in Client(browser) side(HTML,css and JS) application
+development...In this case it serves only as a development plaftorm
+but not involved in production
+
+  REACT JS --- Node JS as a platform for development
+  
+---------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+	 
+	 
+	 
+	 
+	 

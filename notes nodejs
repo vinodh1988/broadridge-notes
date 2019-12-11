@@ -1,0 +1,35 @@
+
+
+Node JS applications/services does not follow the concept of 
+deployment( placing your production code in the middleware(web server))..
+
+   deployments are generally used web application and web services ....
+   because network communication and resource mapping  is usually  managed
+   by middleware
+
+Node JS applications/services  are stand alone and they run...
+
+   In node JS , Job of middleware( listening to request, mapping requests with
+   resources, providing responses, managing security, managing connections
+   with other network resources) is taken by developer. application code also
+   contains middleware logic.
+
+   FULL stack application using node JS platform popular stack
+   
+   
+         MEAN
+		       Express(middleware)
+			   Angular(Front end)
+			   Node JS (platform for backend, js is the language)
+			   MongODB( database)
+			   
+		 
+		 MERN
+		    
+			   Express(middleware)
+			   React(Front end)
+			   Node JS (platform for backend, js is the language)
+			   MongODB( database)
+		   
+		        
+		       
